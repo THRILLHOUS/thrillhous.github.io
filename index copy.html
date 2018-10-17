@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  <title>Justin McGee - Web Development</title>
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="owl-carousel owl-theme">
+      <div class="item" id="project1">
+        <div class="projectText" id="project1Text">
+          <h3>AnySoft</h3>
+          <p>
+            This is the first project that I did for a client. It was built with WordPress and I did a lot of figuring out as I went along.
+          </p>
+        </div>
+        <img class="projectImage" src="img/anysoft.png" />
+      </div>
+      <div class="item" id="project2">
+        <div class="projectText" id="project2Text">
+          <h3>Relaxr Landing Page</h3>
+          <p>
+            The objective of this project was to make a pixel perfect recreation of a simple landing page with HTML and CSS. This is the result.
+          </p>
+        </div>
+        <img class="projectImage" src="img/relaxr.png" />
+      </div>
+      <div class="item" id="project3">
+        <img src="img/hero_image.jpg" />
+        <h3>Project 3</h3>
+      </div>
+      <div class="item" id="project4">
+        <img src="img/hero_image.jpg" />
+        <h3>Project 4</h3>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="logo">
+      <h1><a href="index.html">Justin McGee</a></h1>
+      <h2 id="myProjects" class=>My Projects</h2>
+    </div>
+    <nav>
+      <li>
+        <a href="contact.html">Contact Me</a>
+      </li>
+    </nav>
+  </header>
+  <footer>
+    &copy; Justin McGee 2018
+  </footer>
+  <script src="owlcarousel/jquery.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: false,
+        nav: false,
+        dots: false,
+        touchDrag: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 1
+          },
+          1224: {
+            items: 1
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
