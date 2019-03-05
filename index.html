@@ -32,57 +32,61 @@
         <a href="https://github.com/THRILLHOUS/homework-portfolio/tree/master/relaxr_landing_page" target="_blank"><img class="projectImage" src="https://thrillhous.github.io/img/relaxr.png" target="_blank" /></a>
       </div>
       <div class="item" id="project3">
-        <img src="https://thrillhous.github.io/img/hero_image.jpg" />
-        <h3>Project 3</h3>
-      </div>
-      <div class="item" id="project4">
-        <img src="https://thrillhous.github.io/img/hero_image.jpg" />
-        <h3>Project 4</h3>
+        <div class="projectText" id="project3Text">
+          <h3>301 Redesign</h3>
+          <p>This was the first site that I made compiling some of the projects that I had done for others. I wanted something clean and simple as to take nothing away from the projects themselves, but also wanted a bit of flair as to showcase some
+            of the coding I could do. This project is also built with WordPress as I had a large focus on making WordPress websites for others and because it is where I got my start with web development.</p>
+          <img src="https://thrillhous.github.io/img/301_redesign.png" />
+          <h3>Project 3</h3>
+        </div>
+        <div class="item" id="project4">
+          <img src="https://thrillhous.github.io/img/hero_image.jpg" />
+          <h3>Project 4</h3>
+        </div>
       </div>
     </div>
-  </div>
-  <header>
-    <div class="logo">
-      <h1><a href="https://thrillhous.github.io/index.html">Justin McGee</a></h1>
-      <h2 id="myProjects">My Projects</h2>
-    </div>
-    <nav>
-      <li>
-        <a href="https://thrillhous.github.io/contact.html">Contact Me</a>
-      </li>
-    </nav>
-  </header>
-  <footer>
-    &copy; Justin McGee 2018
-  </footer>
-  <script src="https://thrillhous.github.io/owlcarousel/jquery.min.js"></script>
-  <script src="https://thrillhous.github.io/owlcarousel/owl.carousel.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        autoplay: false,
-        nav: false,
-        dots: false,
-        touchDrag: true,
-        responsiveClass: true,
-        responsive: {
-          0: {
-            items: 1
-          },
-          768: {
-            items: 1
-          },
-          1224: {
-            items: 1
+    <header>
+      <div class="logo">
+        <h1><a href="https://thrillhous.github.io/index.html">Justin McGee</a></h1>
+        <h2 id="myProjects">My Projects</h2>
+      </div>
+      <nav>
+        <li>
+          <a href="https://thrillhous.github.io/contact.html">Contact Me</a>
+        </li>
+      </nav>
+    </header>
+    <footer>
+      &copy; Justin McGee 2018
+    </footer>
+    <script src="https://thrillhous.github.io/owlcarousel/jquery.min.js"></script>
+    <script src="https://thrillhous.github.io/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          autoplay: false,
+          nav: false,
+          dots: false,
+          touchDrag: true,
+          responsiveClass: true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            768: {
+              items: 1
+            },
+            1224: {
+              items: 1
+            }
           }
-        }
+        });
       });
-    });
-  </script>
-  <script type="text/javascript">
-    alert('To browse projects click and drag the image');
-  </script>
+    </script>
+    <script type="text/javascript">
+      alert('To browse projects click and drag the image');
+    </script>
 </body>
 
 </html>
