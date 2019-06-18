@@ -6,7 +6,7 @@
 }
 
 .loader::after {
-  content: '/2026';
+  content: '\2026';
   display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
