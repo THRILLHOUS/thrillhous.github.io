@@ -3,6 +3,16 @@
 .loader {
   font-family: 'Roboto Mono', monospace;
   font-size: 40px;
+  margin: auto;
+  color: #f2b632;
+  background-color: #677077;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .loader::after {
